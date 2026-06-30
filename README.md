@@ -14,16 +14,17 @@ Avance del 50%:
 * Normalización de regiones de interés
 * Integración inicial con OCR
 
-## Procedimienti de uso
+## Procedimiento de uso
 El proyecto se ejecuta mediante un notebook de Jupyter (.ipynb), el cual puede abrirse tanto en un entorno local utilizando Visual Studio Code con la extensión de Jupyter como en Google Colab. Una vez abierto el archivo, es necesario ejecutar inicialmente las celdas correspondientes a la instalación e importación de las librerías requeridas para garantizar el correcto funcionamiento del sistema.
 Posteriormente, el usuario debe cargar la imagen del comprobante que desea analizar y continuar ejecutando las celdas del notebook en el orden en que fueron desarrolladas. Durante la ejecución, se mostrarán los resultados obtenidos en cada etapa del procesamiento, permitiendo visualizar las transformaciones aplicadas a la imagen y verificar el comportamiento del algoritmo.
 Al finalizar la ejecución, el sistema presentará el resultado del reconocimiento óptico de caracteres (OCR), junto con la información extraída del comprobante, incluyendo los campos de interés como el RUC, DNI, fecha e importe total, según los datos detectados en la imagen procesada.
 
 ## Integrantes
-•	Aldana Pasache Jhon Brayan
-•	Alarcon Crisanto Leonardo David
-•	Calderón Guerrero Junior Schneider 
-•	Calderon Rufino José Daniel
-•	More Crisanto Luis Brayan 
-•	Neyra Tocto César Josué 
-•	Ordinola Huacchillo Fernando Noé
+
+* Alarcon Crisanto Leonardo David
+* Aldana Pasache Jhon Brayan
+* Calderón Guerrero Junior Schneider 
+* Calderon Rufino José Daniel
+* More Crisanto Luis Brayan 
+* Neyra Tocto César Josué 
+* Ordinola Huacchillo Fernando Noé
