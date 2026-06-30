@@ -1,0 +1,30 @@
+# Extracción de Información de recibos y facturas
+## Descripción del Proyecto
+Este proyecto tiene como objetivo desarrollar un sistema capaz de extraer información estructurada a partir de recibos y facturas en formato físico (imágenes). Para ello, se emplean técnicas de procesamiento digital de imágenes y reconocimiento óptico de caracteres (OCR).
+El sistema implementa un pipeline que incluye etapas de preprocesamiento, detección de bordes, segmentación de regiones de interés y normalización de texto, con el fin de mejorar la calidad de la información antes de aplicar OCR. Finalmente, se busca identificar y extraer automáticamente datos relevantes como RUC, DNI, fecha e importe total.
+Este repositorio corresponde al avance del 50% del proyecto, donde ya se cuenta con la implementación del procesamiento de imágenes y una primera integración funcional con OCR.
+
+## Estado del Proyecto
+
+Avance del 50%:
+
+* Preprocesamiento de imágenes
+* Detección de bordes
+* Segmentación de texto en filas
+* Normalización de regiones de interés
+* Integración inicial con OCR
+
+## Procedimiento de uso
+El proyecto se ejecuta mediante un notebook de Jupyter (.ipynb), el cual puede abrirse tanto en un entorno local utilizando Visual Studio Code con la extensión de Jupyter como en Google Colab. Una vez abierto el archivo, es necesario ejecutar inicialmente las celdas correspondientes a la instalación e importación de las librerías requeridas para garantizar el correcto funcionamiento del sistema.
+Posteriormente, el usuario debe cargar la imagen del comprobante que desea analizar y continuar ejecutando las celdas del notebook en el orden en que fueron desarrolladas. Durante la ejecución, se mostrarán los resultados obtenidos en cada etapa del procesamiento, permitiendo visualizar las transformaciones aplicadas a la imagen y verificar el comportamiento del algoritmo.
+Al finalizar la ejecución, el sistema presentará el resultado del reconocimiento óptico de caracteres (OCR), junto con la información extraída del comprobante, incluyendo los campos de interés como el RUC, DNI, fecha e importe total, según los datos detectados en la imagen procesada.
+
+## Integrantes
+
+* Alarcon Crisanto Leonardo David
+* Aldana Pasache Jhon Brayan
+* Calderón Guerrero Junior Schneider 
+* Calderon Rufino José Daniel
+* More Crisanto Luis Brayan 
+* Neyra Tocto César Josué 
+* Ordinola Huacchillo Fernando Noé
