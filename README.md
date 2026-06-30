@@ -23,7 +23,7 @@ Al finalizar la ejecución, el sistema presentará el resultado del reconocimien
 
 * Alarcon Crisanto Leonardo David
 * Aldana Pasache Jhon Brayan
-* Calderón Guerrero Junior Schneider 
+* Calderón Guerrero Schneider 
 * Calderon Rufino José Daniel
 * More Crisanto Luis Brayan 
 * Neyra Tocto César Josué 
